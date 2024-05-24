@@ -53,7 +53,7 @@ const Sidebar = () => {
 
                     </div>
                 </div>
-                <img src="../images/imag.png" className='absolute top-0 border-b-4 border-b-white z-10' alt="" />
+                {/* <img src="../images/imag.png" className='absolute top-0 border-b-4 border-b-white z-10' alt="" /> */}
             </div>
             <Main />
         </div>

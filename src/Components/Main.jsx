@@ -32,7 +32,7 @@ const Main = () => {
             </div>
             <span className='absolute bg-sky-500 w-8 h-8 rounded-full blur-md md:top-[165px] top-[280px] md:left-16 left-6'></span>
             <span className='absolute bg-purple-500 w-8 h-8 rounded-full blur-md md:top-[165px] top-[280px] md:right-16 right-6'></span>
-            <div className='flex flex-col gap-6 text-white lg:px-0 md:px-0 px-8'>
+            <div className='flex flex-col gap-6 text-white lg:items-center lg:px-0 md:px-0 px-8'>
               <p className='flex gap-3 items-center text-lg font-semibold'><SiHyperskill />Skills</p>
               <div className='flex gap-5 lg:flex-row md:flex-row flex-col'>
                 <div className='flex flex-wrap gap-3 lg:min-w-[190px] lg:max-w-[190px] md:min-w-[175px] md:max-w-[175px]  relative text-xs border border-gray-600 rounded-md px-5 py-3'>
