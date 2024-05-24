@@ -1,0 +1,32 @@
+.mainn{
+    position: relative;
+}
+.mainn:hover{
+    img {
+        filter: blur(2px);
+    }
+    .bg{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        color: white;
+    }
+}
+
+.bg{
+    position: absolute;
+    display: none;
+    width: 100%;
+    transition: ease-out 0.3s;
+    box-shadow: none;
+    height: 100%;
+    padding-top: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    opacity: 0.6;
+    font-size: 23px;
+    color: white;
+}
+

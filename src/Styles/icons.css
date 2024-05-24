@@ -1,0 +1,84 @@
+.icons{
+    background: white;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 #0072b1;
+}
+.icons:hover{
+    box-shadow: inset 100px 0 0 #0072b1;
+
+    .fill{
+        fill: white;
+        border-radius: 5px;
+    }
+}
+
+.fill:hover{
+    transition: ease-in-out 0.5s;
+    scale: 110%;
+}
+
+.icons-1{
+    background: white;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 #2b3137;
+}
+.icons-1:hover{
+    box-shadow: inset 100px 0 0 #2b3137;
+
+    .fill-1{
+        fill: white;
+        border-radius: 5px;
+    }
+}
+
+.fill-1:hover{
+    transition: ease-in-out 0.5s;
+    scale: 110%;
+}
+
+.icons-2{
+    background: white;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 rgb(202, 54, 104);
+}
+.icons-2:hover{
+    box-shadow: inset 100px 0 0 rgb(202, 54, 104);
+
+    .fill-2{
+        fill: white;
+        border-radius: 5px;
+    }
+}
+
+
+.fill-2:hover{
+    transition: ease-in-out 0.5s;
+    scale: 110%;
+}
+
+.icons-3{
+    background: white;
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 #c71610;
+}
+.icons-3:hover{
+    box-shadow: inset 100px 0 0 #c71610;
+
+    .fill-3{
+        fill: white;
+        border-radius: 5px;
+    }
+}
+
+
+.fill-3:hover{
+    transition: ease-in-out 0.5s;
+    scale: 110%;
+}
+.dw{
+    transition: ease-out 0.5s;
+    box-shadow: inset 0 0 0 #023071;
+}
+.dw:hover {
+    box-shadow: inset 0 45px 0 #023071;
+}

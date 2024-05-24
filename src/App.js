@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import Home from './Pages/Home';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import BlogApp from './Components/BlogApp';
+import ShoppingCart from './Components/ShoppingCart';
+import Projects from './Pages/Projects';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App w-[100%] flex sm:flex-col md:flex-col justify-center md:h-screen bg-black py-10 ">
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<Home />} />
+          <Route path='/:subpages?' element={<Sidebar />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
