@@ -20,7 +20,7 @@ const Main = () => {
       }
       {
         (!subpages) && (
-          <div className='w-full  lg:p-6 md:px-4 py-10 bg-gray-900 h-full relative'>
+          <div className='w-full  flex flex-col justify-center lg:p-6 md:px-4 py-10 bg-gray-900 h-full relative'>
             <div className='flex gap-4 items-center justify-center flex-wrap md:px-0 px-6'>
               <Link target={'_blank'} to={'https://www.linkedin.com/in/keyur-bhimani-0910a3309'} className='p-5 border shadow-lg bg-white rounded-md cursor-pointer icons'><RiLinkedinBoxFill className='text-5xl fill-[#0072b1] fill' /></Link>
               <Link target={'_blank'} to={'https://github.com/Keyur200'} className='p-5 shadow-lg bg-white border rounded-md cursor-pointer icons-1'><RiGithubFill className='text-5xl fill-[#2b3137] fill-1' /></Link>

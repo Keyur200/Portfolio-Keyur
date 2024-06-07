@@ -5,11 +5,17 @@ import { Link, useParams } from 'react-router-dom'
 import Main from './Main'
 import Footer from './Footer'
 import TypeWriter from 'typewriter-effect'
+import { CiShop } from 'react-icons/ci'
+import { BsShop } from 'react-icons/bs'
+import { FaShop } from 'react-icons/fa6'
 const Sidebar = () => {
     const { subpages } = useParams();
     function linkClasses(type = null) {
         let classes = "flex flex-col gap-4 border-2 border-gray-400 hover:text-purple-500 hover:border-purple-500  py-2 px-5 rounded-lg cursor-pointer  transition-all duration-500 "
         if (type === subpages) {
+            if(subpages === "ecommerce"){
+                return classes += "bg-gradient-to-r from-gray-700 py-2.3 via-gray-500 w-[115%]   to-gray-300 overflow-hidden hover:text-white text-white  border-gray-500 hover:border-sky-500"
+            }
             if(subpages === "blogapp"){
                 return classes += "bg-gradient-to-r from-blue-600 py-2.3 via-sky-500 w-[115%]   to-sky-300 overflow-hidden hover:text-white text-white  border-sky-500 hover:border-sky-500"
             }
@@ -38,6 +44,12 @@ const Sidebar = () => {
                     <hr className='border-2 my-6 border-slate-600 border-dashed' />
                     <div className='flex  flex-col justify-items-start  text-2xl font-bold gap-4'>
                         <h2 className='mb-3'>Projects</h2>
+                        <Link className={linkClasses('ecommerce')} to={'/ecommerce'} id='safe'>
+                            <div className='text-md flex gap-3 items-center'>
+                                <FaShop className='font-bold' />
+                                <p className='text-lg'>Ecommerce website</p>
+                            </div>
+                        </Link>
                         <Link className={linkClasses('blogapp')} to={'/blogapp'} id='safe'>
                             <div className='text-md flex gap-3 items-center'>
                                 <RiBloggerLine />
