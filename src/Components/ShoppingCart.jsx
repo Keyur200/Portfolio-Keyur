@@ -7,7 +7,7 @@ const ShoppingCart = () => {
   return (
     <div className=' h-auto overflow-hidden bg-white  p-5'>
       <Link target={'_blank'} to={'https://emize.vercel.app'} className='relative mainn cursor-pointer '>
-        <img src="../images/banner2.png" className='border-4 h-[330px]  border-black rounded-xl' alt="" />
+        <img src="../images/banner2.png" className='border-4 h-[180px] md:h-[250px] lg:h-[330px]    border-black rounded-xl' alt="" />
         <span className='absolute bottom-0 left-0 py-2 px-4 rounded-es-xl rounded-tr-xl text-2xl font-extrabold bg-gradient-to-r from-indigo-600  to-purple-400  text-white'>Shopping Cart</span>
         <p className="bg bg-gradient-to-tr from-indigo-300 to-purple-400"><p className='flex text-gray-800  gap-3 items-center text-sm md:text-lg lg:text-xl  hover:scale-125 transition-transform duration-500 font-bold '>Click to redirect website <FaExternalLinkAlt /></p>  </p>
       </Link>

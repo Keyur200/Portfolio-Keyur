@@ -6,7 +6,7 @@ const Youtube = () => {
   return (
     <div className=' h-auto overflow-hidden bg-white flex flex-col items-center justify-center  p-5'>
       <Link target={'_blank'} to={'https://just-play-ten.vercel.app'} className='relative mainn overflow-hidden rounded-xl cursor-pointer '>
-        <img src="../images/banner4.png" className='border-4 h-[330px]  hover:scale-125 border-red-400 rounded-xl' alt="" />
+        <img src="../images/banner4.png" className='border-4 h-[180px] md:h-[250px] lg:h-[330px]  hover:scale-125 border-red-400 rounded-xl' alt="" />
         <span className='absolute bottom-0 left-0 py-2 px-4 rounded-es-xl rounded-tr-xl text-2xl font-extrabold bg-gradient-to-r from-red-600  to-red-300  text-white'>Youtube(clone)</span>
         <p className="bg bg-gradient-to-tr from-red-200 to-red-100 "><p className='flex gap-3 text-gray-800 text-sm md:text-lg lg:text-xl  items-center hover:scale-125 transition-transform duration-500 font-bold'>Click to redirect website <FaExternalLinkAlt /></p>  </p>
       </Link>
